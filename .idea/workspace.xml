@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="697cbd65-c453-4fbb-8a88-aa98576a8e86" name="Default Changelist" comment="" />
+    <list default="true" id="697cbd65-c453-4fbb-8a88-aa98576a8e86" name="Default Changelist" comment="asfasfasfasf">
+      <change afterPath="$PROJECT_DIR$/assets/img/got-facts/fact_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/got-facts/fact_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/got-facts/fact_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/got-facts/fact_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/got-facts/fact_5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +28,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/got-facts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/got-facts" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -37,5 +52,15 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622302118254">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="360" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1622302118254" />
+    <state x="480" y="145" key="CommitChangelistDialog2" timestamp="1622298473464">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="480" y="145" key="CommitChangelistDialog2/0.25.1792.1095@0.25.1792.1095" timestamp="1622298473464" />
   </component>
 </project>

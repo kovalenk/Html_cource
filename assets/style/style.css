@@ -4,20 +4,17 @@
     max-width: 100%;
     height: 100vh;
     background: black url("../img/bg_image.png") no-repeat;
-    background-size: cover;
-    background-position-y: -60px;
+    background-size: 100% 108%;
+    background-position-y: -75px;
 }
 
-header, .body, footer {
-    width: 1448px;
-    margin: auto;
-}
+/*Header styles   */
 
 header {
     display: flex;
     align-items: center;
     height: 62px;
-    padding: 44px 0 18px;
+    padding: 44px 80px 18px;
 }
 
 header .main-logo {
@@ -41,37 +38,156 @@ header h1 {
     text-align: center;
 
     color: #FEFFD3;
-    background: black;
 }
 
 header h1:before {
-    content: "";
     position: absolute;
+    top: 22px;
     left: 0;
-    top: 20px;
-    width: 100%;
-    height: 0;
     opacity: 0.3;
+    content: "";
+
+    width: calc((100% - 240px) / 2);
+
     border: 2px solid #FEFFD3;
-    z-index: 1;
 }
 
 header h1:after {
-    content: "";
     position: absolute;
-    left: 0;
-    top: 20px;
-    width: 220px;
-    height: 34px;
-    background: black;
-    z-index: 2;
+    top: 22px;
+    right: 0;
+    opacity: 0.3;
+    content: "";
+
+    width: calc((100% - 240px) / 2 );
+
+    border: 2px solid #FEFFD3;
 }
 
-header .main-menu {
-    width: 80px;
+header .burger-menu {
+    width: 170px;
     height: 51px;
     cursor: pointer;
 }
+
+/*Header styles   */
+
+/* Main-body styles   */
+
+.main-body {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1024px;
+    margin: auto;
+}
+
+.main-body .description{
+    max-width: 600px;
+    padding-left: 40px;
+    margin: 0 auto;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #B9BCC7;
+}
+
+.main-body .achivs {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 30px 0 40px;
+}
+
+.main-body .achivs .achivs-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 341px;
+    height: auto;
+
+    margin: 25px 0;
+}
+
+.main-body .achivs .achivs-content img{
+    width: 124px;
+    height: 124px;
+    margin-bottom: 17px;
+}
+
+.main-body .achivs .achivs-content .content{
+    padding: 0 38px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #B9BCC7;
+}
+
+.main-body .achivs .watch-now {
+    cursor: pointer;
+
+    width: 188px;
+    height: 61px;
+    margin: auto;
+
+    border: none;
+    border-radius: 3px 30px 30px 3px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+
+    color: #FEFFD3;
+    background: #04162B;
+}
+
+/* Main-body styles   */
+
+/* footer styles   */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+footer:before {
+    position: absolute;
+    top: 72px;
+    left: 232px;
+    opacity: 0.3;
+    content: "";
+
+    width: calc(100% - 456px);
+
+    border: 2px solid #FEFFD3;
+}
+
+footer img{
+    width: 128px;
+    height: 39px;
+    margin: 50px 60px;
+}
+
+/* footer styles   */
 
 @media (max-width: 500px) {
     .second-page {
