@@ -8,11 +8,33 @@
   background-size: 100% 108%;
   background-position-y: -75px;
 
+  @media (max-width: 1024px) {
+    height: 100%;
+    padding-bottom: 140px;
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 71px;
+  }
+
+  @media (max-width: 520px) {
+    background-size: cover;
+    background-position: center;
+  }
+
   @import "components/header";
 
   header {
     .main-logo {
       width: 300px;
+
+      @media (max-width: 768px) {
+        width: 140px;
+      }
+
+      @media (max-width: 520px) {
+        width: 84px;
+      }
     }
   }
 
@@ -37,6 +59,15 @@
       letter-spacing: 0.02em;
 
       color: #B9BCC7;
+
+      @media (max-width: 768px) {
+        padding: 0 16px;
+      }
+
+      @media (max-width: 520px) {
+        padding-top: 80px;
+
+      }
     }
 
     .achivs {
@@ -44,6 +75,10 @@
       flex-wrap: wrap;
 
       margin: 30px 0 40px;
+
+      @media (max-width: 520px) {
+        margin-top: 35px;
+      }
 
       .achivs-content {
         display: flex;
@@ -59,6 +94,13 @@
           width: 124px;
           height: 124px;
           margin-bottom: 17px;
+
+          @media (max-width: 520px) {
+            $image_size: 108px;
+
+            width: $image_size;
+            height: $image_size;
+          }
         }
 
         .content {
@@ -72,6 +114,15 @@
           text-align: center;
 
           color: #B9BCC7;
+        }
+
+        @media (max-width: 1024px) {
+          width: 50%;
+        }
+
+        @media (max-width: 520px) {
+          width: 100%;
+          margin: 30px 0;
         }
       }
 
@@ -93,6 +144,10 @@
 
         color: #FEFFD3;
         background: #04162B;
+
+        @media (max-width: 520px) {
+         margin-top: 45px;
+        }
       }
     }
   }
@@ -122,6 +177,30 @@
       width: 128px;
       height: 39px;
       margin: 50px 60px;
+    }
+
+    @media (max-width: 768px) {
+      &:before {
+        top: 35px;
+        left: 158px;
+        width: calc(100% - 319px);
+      }
+
+      img {
+        margin: 16px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      &:before {
+        left: 114px;
+        width: calc(100% - 225px);
+        border-width: 1px;
+      }
+
+      img {
+        width: 80px;
+      }
     }
   }
 }

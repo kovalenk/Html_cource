@@ -10,6 +10,10 @@ header {
     width: $main_logo_width;
     height: 56px;
     cursor: pointer;
+
+    &.mobile {
+      display: none;
+    }
   }
 
   h1 {
@@ -56,8 +60,62 @@ header {
     cursor: pointer;
   }
 
-  .burger-menu-2 {
-    @extend .burger-menu;
-    background-color: red;
+  @media (max-width: 768px) {
+    padding: 16px 16px 8px;
+
+    h1 {
+      font-size: 22px;
+      padding: 0 10px;
+      margin: 0 12px;
+
+      &:before {
+        top: 19px;
+        width: calc((100% - 133px) / 2);
+      }
+
+      &:after {
+        top: 19px;
+        width: calc((100% - 133px) / 2);
+      }
+    }
+
+    .burger-menu {
+      width: 50px;
+    }
+  }
+
+  @media (max-width: 520px) {
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #221A1A;
+
+    .burger-menu {
+      max-width: 53px;
+      padding-right: 20%;
+      order: 1;
+    }
+
+    .main-logo {
+      display: none;
+      order: 2;
+
+      &.mobile {
+        display: block;
+      }
+    }
+
+    h1 {
+      order: 2;
+
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+      text-align: left;
+
+      &:before, &:after {
+        content: none;
+      }
+    }
   }
 }
