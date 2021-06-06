@@ -1,0 +1,63 @@
+@import "../helpers/variables";
+
+header {
+  display: flex;
+  align-items: center;
+  height: 62px;
+  padding: $test_padding;
+
+  .main-logo {
+    width: $main_logo_width;
+    height: 56px;
+    cursor: pointer;
+  }
+
+  h1 {
+    position: relative;
+
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 34px;
+
+    font-family: $main_fonts;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+    color: $light_yellow;
+
+    @mixin header_lines() {
+      position: absolute;
+      top: 22px;
+      opacity: 0.3;
+      content: "";
+
+      width: calc((100% - 240px) / 2);
+
+      border: 2px solid #FEFFD3;
+    }
+
+    &:before {
+      @include header_lines();
+      left: 0;
+    }
+
+    &:after {
+      @include header_lines();
+      right: 0;
+    }
+  }
+
+  .burger-menu {
+    width: 170px;
+    height: 51px;
+    cursor: pointer;
+  }
+
+  .burger-menu-2 {
+    @extend .burger-menu;
+    background-color: red;
+  }
+}
