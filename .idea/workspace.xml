@@ -2,15 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697cbd65-c453-4fbb-8a88-aa98576a8e86" name="Default Changelist" comment="Remove items which was discussed on previous lessons">
-      <change afterPath="$PROJECT_DIR$/assets/img/main_logo_mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/montserrat.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/roboto.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/helpers/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/helpers/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +69,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/style/scss/common/fonts" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
-      <recent name="$PROJECT_DIR$/assets/style/scss" />
-      <recent name="$PROJECT_DIR$/assets/img/got-facts" />
+      <recent name="$PROJECT_DIR$/assets/style/scss/common/fonts" />
+      <recent name="$PROJECT_DIR$/assets/fonts/Roboto" />
+      <recent name="$PROJECT_DIR$/assets/fonts" />
+      <recent name="$PROJECT_DIR$/assets/style/scss/mixins" />
+      <recent name="$PROJECT_DIR$/assets/style/scss/helpers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -59,7 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1622233709164</updated>
       <workItem from="1622233710515" duration="681000" />
-      <workItem from="1622966346903" duration="7247000" />
+      <workItem from="1622966346903" duration="7875000" />
+      <workItem from="1623046740973" duration="7000" />
+      <workItem from="1623269074874" duration="3153000" />
+      <workItem from="1623311484385" duration="608000" />
+      <workItem from="1623858444437" duration="2013000" />
+      <workItem from="1623860844252" duration="691000" />
+      <workItem from="1623862025246" duration="1000" />
+      <workItem from="1623862035559" duration="2056000" />
     </task>
     <task id="LOCAL-00001" summary="Remove items which was discussed on previous lessons">
       <created>1622793800013</created>
@@ -83,17 +124,22 @@
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="360" y="231" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1622302118254" />
-    <state x="480" y="145" key="CommitChangelistDialog2" timestamp="1622970505766">
+    <state x="599" y="378" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623271727101">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="599" y="378" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1623271727101" />
+    <state x="480" y="145" key="CommitChangelistDialog2" timestamp="1623861727691">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="480" y="145" key="CommitChangelistDialog2/0.25.1792.1095@0.25.1792.1095" timestamp="1622970505766" />
+    <state x="480" y="145" key="CommitChangelistDialog2/1792.275.1102.717/0.25.1792.1095@0.25.1792.1095" timestamp="1623861727691" />
     <state x="496" y="309" key="Vcs.Push.Dialog.v2" timestamp="1622793806252">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
     <state x="496" y="309" key="Vcs.Push.Dialog.v2/0.25.1792.1095@0.25.1792.1095" timestamp="1622793806252" />
-    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1622970835683">
+    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1623271445999">
       <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1622970835683" />
+    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1623271445999" />
   </component>
 </project>
