@@ -2,47 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697cbd65-c453-4fbb-8a88-aa98576a8e86" name="Default Changelist" comment="Remove items which was discussed on previous lessons">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Montserrat/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Roboto/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/montserrat.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/roboto.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/main_bg_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/components/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/pages/facts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/style/scss/pages/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/facts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/bg_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/facts_bg_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/css/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/css/index.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/helpers/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/scss/common/fonts/montserrat.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/common/fonts/montserrat.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/components/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/scss/helpers/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/helpers/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/scss/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -66,20 +41,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/style/scss/common/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/style/scss/helpers" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/style/scss/helpers" />
+      <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets/style/scss/common/fonts" />
       <recent name="$PROJECT_DIR$/assets/fonts/Roboto" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
-      <recent name="$PROJECT_DIR$/assets/style/scss/mixins" />
-      <recent name="$PROJECT_DIR$/assets/style/scss/helpers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -101,6 +77,11 @@
       <workItem from="1623860844252" duration="691000" />
       <workItem from="1623862025246" duration="1000" />
       <workItem from="1623862035559" duration="2056000" />
+      <workItem from="1623911736748" duration="149000" />
+      <workItem from="1623955556387" duration="3698000" />
+      <workItem from="1623999207748" duration="110000" />
+      <workItem from="1624015917681" duration="6000" />
+      <workItem from="1624023945898" duration="5189000" />
     </task>
     <task id="LOCAL-00001" summary="Remove items which was discussed on previous lessons">
       <created>1622793800013</created>

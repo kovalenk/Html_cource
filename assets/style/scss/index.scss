@@ -1,205 +1,25 @@
-@import "helpers/variables";
+@import "helpers/_reset";
 @import "common/fonts/index";
+@import "pages/main";
+@import "pages/facts";
 
-.second-page {
-  position: relative;
-  max-width: 100%;
-  height: 100vh;
-  background: $test_background;
-  background-size: 100% 108%;
-  background-position-y: -75px;
+body {
+  margin: 0;
 
-  @media (max-width: 1024px) {
-    height: 100%;
-    padding-bottom: 140px;
-  }
+  .main-section {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    background: black no-repeat;
+    background-size: 100% 108%;
+    background-position-y: -75px;
 
-  @media (max-width: 768px) {
-    padding-bottom: 71px;
-  }
-
-  @media (max-width: 520px) {
-    background-size: cover;
-    background-position: center;
-  }
-
-  @import "components/header";
-
-  header {
-    .main-logo {
-      width: 300px;
-
-      @media (max-width: 768px) {
-        width: 140px;
-      }
-
-      @media (max-width: 520px) {
-        width: 84px;
-      }
-    }
-  }
-
-  .main-body {
-    display: flex;
-    flex-direction: column;
-
-    max-width: 1024px;
-    margin: auto;
-
-    .description{
-      max-width: 600px;
-      padding-left: 40px;
-      margin: 0 auto;
-
-      font-family: "Montserrat", sans-serif;
-      font-style: normal;
-      font-size: 16px;
-      line-height: 25px;
-      text-align: center;
-      letter-spacing: 0.02em;
-
-      color: #B9BCC7;
-
-      @media (max-width: 768px) {
-        padding: 0 16px;
-      }
-
-      @media (max-width: 520px) {
-        padding-top: 80px;
-
-      }
-    }
-
-    .achivs {
+    .main-body {
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: column;
 
-      margin: 30px 0 40px;
-
-      @media (max-width: 520px) {
-        margin-top: 35px;
-      }
-
-      .achivs-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        width: 341px;
-        height: auto;
-
-        margin: 25px 0;
-
-        img {
-          width: 124px;
-          height: 124px;
-          margin-bottom: 17px;
-
-          @media (max-width: 520px) {
-            $image_size: 108px;
-
-            width: $image_size;
-            height: $image_size;
-          }
-        }
-
-        .content {
-          padding: 0 38px;
-          font-family: "Montserrat", sans-serif;
-          font-style: normal;
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 17px;
-          text-align: center;
-
-          color: #B9BCC7;
-        }
-
-        @media (max-width: 1024px) {
-          width: 50%;
-        }
-
-        @media (max-width: 520px) {
-          width: 100%;
-          margin: 30px 0;
-        }
-      }
-
-      .watch-now {
-        cursor: pointer;
-
-        width: 188px;
-        height: 61px;
-        margin: auto;
-
-        border: none;
-        border-radius: 3px 30px 30px 3px;
-
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 25px;
-
-        color: #FEFFD3;
-        background: #04162B;
-
-        @media (max-width: 520px) {
-         margin-top: 45px;
-        }
-      }
-    }
-  }
-
-  footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-
-    &:before {
-      position: absolute;
-      top: 72px;
-      left: 232px;
-      opacity: 0.3;
-      content: "";
-
-      width: calc(100% - 456px);
-
-      border: 2px solid #FEFFD3;
-    }
-
-    img{
-      width: 128px;
-      height: 39px;
-      margin: 50px 60px;
-    }
-
-    @media (max-width: 768px) {
-      &:before {
-        top: 35px;
-        left: 158px;
-        width: calc(100% - 319px);
-      }
-
-      img {
-        margin: 16px;
-      }
-    }
-
-    @media (max-width: 768px) {
-      &:before {
-        left: 114px;
-        width: calc(100% - 225px);
-        border-width: 1px;
-      }
-
-      img {
-        width: 80px;
-      }
+      max-width: 1240px;
+      margin: auto;
     }
   }
 }

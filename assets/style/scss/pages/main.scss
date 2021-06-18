@@ -1,0 +1,162 @@
+@import "../helpers/variables";
+
+body {
+  .main-section {
+    &.landing {
+      background-image: url("../../img/main_bg_image.png");
+
+      @import "../components/header";
+
+      @media (max-width: 520px) {
+        background-size: cover;
+        background-position: -800px center;
+      }
+
+      .main-body {
+        justify-content: center;
+
+        position: relative;
+
+        max-width: 100%;
+        height: calc(100vh - 276px);
+        padding: 0 80px;
+
+        &:before {
+          position: absolute;
+          top: 0;
+          right: 80px;
+          content: "";
+          width: 0;
+          height: 100%;
+          border-right: 2px solid #FEFFD3;
+          opacity: .3;
+        }
+
+        .episode_code {
+          padding-top: 10px;
+
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 150.19%;
+
+          color: #FEFFD3;
+        }
+
+        .title {
+          max-width: 600px;
+          margin: 13px 0 53px;
+
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 72px;
+          line-height: 84px;
+
+          color: #FEFFD3;
+        }
+
+        .description {
+          max-width: 465px;
+
+          font-family: 'Montserrat', sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 25px;
+          letter-spacing: 0.02em;
+
+          color: #B9BCC7;
+        }
+
+        .link-section {
+          padding: 44px 0 110px;
+
+          button {
+            cursor: pointer;
+
+            width: 188px;
+            height: 61px;
+
+            border: none;
+
+            font-family: 'Montserrat', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 25px;
+
+            color: #FEFFD3;
+
+            &.synopsis {
+              background-color: inherit;
+            }
+
+            &.watch-now {
+              border-radius: 3px 30px 30px 3px;
+
+              background: #04162B;
+            }
+          }
+        }
+
+        @media (max-width: 768px) {
+          height: calc(100vh - 158px);
+          padding: 0 16px;
+
+          &:before {
+            right: 16px;
+          }
+        }
+
+        @media (max-width: 520px) {
+          height: auto;
+
+          &:before {
+            content: none;
+          }
+
+          .episode_code {
+            padding-top: 59px;
+
+            font-size: 18px;
+            line-height: 27px;
+          }
+
+          .title {
+            margin: 15px 0 31px;
+
+            font-size: 48px;
+            line-height: 56px;
+          }
+
+          .description {
+            font-size: 16px;
+            line-height: 25px;
+          }
+
+          .link-section {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+
+            width: 100%;
+            padding-top: 25px;
+
+            button {
+              margin: 15px 0;
+            }
+          }
+        }
+      }
+
+      @import "../components/footer";
+
+      .footer:before {
+        left: 200px;
+        width: calc(100% - 424px);
+      }
+    }
+  }
+}
